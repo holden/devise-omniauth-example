@@ -1,7 +1,3 @@
 == Rails3 Omniauth-Devise supercombo
 
 As bare as you could get devise-omniauth combo
-
-but doesn't work yet...
-
-can't get past: "ActionController::RoutingError (uninitialized constant Users)"
