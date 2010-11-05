@@ -1,4 +1,4 @@
-== Welcome to Rails
+== Omniauth-Devise supercombo
 
 As bare as you could get devise-omniauth combo
 
