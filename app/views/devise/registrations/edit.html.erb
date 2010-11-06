@@ -18,6 +18,10 @@
   <p><%= f.submit "Update" %></p>
 <% end %>
 
+Add some omniauth goodness:
+
+<%= render :partial => "devise/shared/links" %>
+
 <h3>Cancel my account</h3>
 
 <p>Unhappy? <%= link_to "Cancel my account", registration_path(resource_name), :confirm => "Are you sure?", :method => :delete %>.</p>

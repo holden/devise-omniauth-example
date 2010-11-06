@@ -1,5 +1,8 @@
 # Use this hook to configure devise mailer, warden hooks and so forth. The first
 # four configuration values can also be set straight in your models.
+
+require 'openid/store/filesystem'
+
 Devise.setup do |config|
   # ==> Mailer Configuration
   # Configure the e-mail address which will be shown in DeviseMailer.
@@ -133,6 +136,8 @@ Devise.setup do |config|
   
   #config.omniauth :facebook, "APP_ID", "APP_SECRET"
   config.omniauth :facebook, "147749211905466", "b682557c3bc08512d09ebc4b848d8d93"
+  config.omniauth :twitter, "fno1nY6Vx8G80mNFXKPukg", "UnTQrcu2nPG5bqTS3KYdRPkQ2wKgSZz4uBC1RRpRD0"
+  config.omniauth :google_apps, OpenID::Store::Filesystem.new('/tmp'), :domain => 'gmail.com'
   #
   # config.warden do |manager|
   #   manager.oauth(:twitter) do |twitter|
