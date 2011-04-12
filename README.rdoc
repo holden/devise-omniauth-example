@@ -2,7 +2,7 @@
 
 As bare as you could get devise-omniauth combo
 
-for a full featured example with tests!  See Parker Thompson's branch:
+for a full featured example with tests!  See Parker Thompson's fork:
 
 https://github.com/pt/devise-omniauth-example
 
