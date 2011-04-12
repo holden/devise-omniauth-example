@@ -2,10 +2,12 @@
 
 As bare as you could get devise-omniauth combo
 
-I wasn't sure why all the provider callbacks were separated as they can all be handled in the same fashion.
+for a full featured example with tests!  See Parker Thompson's branch:
 
-The Wiki also didn't mention how we should be keeping track of the user tokens in the case we want to allow the user to validate multiple providers.
+https://github.com/pt/devise-omniauth-example
 
-So I created a basic model storing the user_id, provider, & uid.
+
+
+Basic model storing the user_id, provider, & uid.
 
 https://github.com/plataformatec/devise/wiki/OmniAuth:-Overview

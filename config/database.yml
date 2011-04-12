@@ -3,7 +3,7 @@
 development:
   adapter: postgresql
   encoding: unicode
-  database: omniauth
+  database: devise_omniauth_example
   pool: 5
   username: holden
   password: postgres

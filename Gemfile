@@ -1,15 +1,11 @@
 source 'http://rubygems.org'
 
-gem 'rails', '3.0.0'
-
-# Bundle edge Rails instead:
-# gem 'rails', :git => 'git://github.com/rails/rails.git'
-
+gem 'rails', '3.0.5'
 gem 'pg'
 #gem 'sqlite3-ruby', :require => 'sqlite3'
-gem 'devise', :git => 'git://github.com/plataformatec/devise', :branch => 'omniauth'
-#gem 'devise'
-gem 'omniauth'
+
+gem 'devise', '~> 1.2.1'
+gem 'omniauth', '0.2.0'
 
 # Use unicorn as the web server
 # gem 'unicorn'
